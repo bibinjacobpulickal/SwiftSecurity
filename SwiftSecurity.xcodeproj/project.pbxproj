@@ -7,17 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11B8C017227DC3AB003B4C65 /* UIViewLayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C011227DC3AB003B4C65 /* UIViewLayoutHelpers.swift */; };
+		11B8C018227DC3AB003B4C65 /* Set<NSLayoutConstraint.Attribute>Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C012227DC3AB003B4C65 /* Set<NSLayoutConstraint.Attribute>Extensions.swift */; };
+		11B8C019227DC3AB003B4C65 /* CGSizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C013227DC3AB003B4C65 /* CGSizeExtensions.swift */; };
+		11B8C01A227DC3AB003B4C65 /* UIEdgeInsetsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C014227DC3AB003B4C65 /* UIEdgeInsetsExtensions.swift */; };
+		11B8C01B227DC3AB003B4C65 /* CGMultiplierExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C015227DC3AB003B4C65 /* CGMultiplierExtensions.swift */; };
+		11B8C01C227DC3AB003B4C65 /* UIOffsetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C016227DC3AB003B4C65 /* UIOffsetExtensions.swift */; };
+		11B8C020227DCEDC003B4C65 /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C01E227DCEDC003B4C65 /* CodableExtensions.swift */; };
+		11B8C021227DCEDC003B4C65 /* DataObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C01F227DCEDC003B4C65 /* DataObjectExtensions.swift */; };
+		11B8C024227DD200003B4C65 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C023227DD200003B4C65 /* UIViewControllerExtensions.swift */; };
+		11B8C026227DD217003B4C65 /* SecureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C025227DD217003B4C65 /* SecureTableViewCell.swift */; };
+		11B8C028227DD22B003B4C65 /* SecureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C027227DD22B003B4C65 /* SecureItem.swift */; };
+		11B8C02A227DE310003B4C65 /* SecureDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C029227DE310003B4C65 /* SecureDataSource.swift */; };
+		11B8C02E227EDAEB003B4C65 /* LAHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8C02D227EDAEB003B4C65 /* LAHelper.swift */; };
 		11D63992227D60AA000ABD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D63991227D60AA000ABD2E /* AppDelegate.swift */; };
-		11D63994227D60AA000ABD2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D63993227D60AA000ABD2E /* ViewController.swift */; };
+		11D63994227D60AA000ABD2E /* SecureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D63993227D60AA000ABD2E /* SecureViewController.swift */; };
 		11D63999227D60AB000ABD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D63998227D60AB000ABD2E /* Assets.xcassets */; };
+		11D639B0227D729C000ABD2E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D639AE227D729C000ABD2E /* Reusable.swift */; };
+		11D639B1227D729C000ABD2E /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D639AF227D729C000ABD2E /* UITableViewExtensions.swift */; };
+		11D639B4227D8129000ABD2E /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D639B2227D8128000ABD2E /* KeychainItemAccessibility.swift */; };
+		11D639B5227D8129000ABD2E /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D639B3227D8129000ABD2E /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11B8C011227DC3AB003B4C65 /* UIViewLayoutHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewLayoutHelpers.swift; sourceTree = "<group>"; };
+		11B8C012227DC3AB003B4C65 /* Set<NSLayoutConstraint.Attribute>Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set<NSLayoutConstraint.Attribute>Extensions.swift"; sourceTree = "<group>"; };
+		11B8C013227DC3AB003B4C65 /* CGSizeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtensions.swift; sourceTree = "<group>"; };
+		11B8C014227DC3AB003B4C65 /* UIEdgeInsetsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsExtensions.swift; sourceTree = "<group>"; };
+		11B8C015227DC3AB003B4C65 /* CGMultiplierExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMultiplierExtensions.swift; sourceTree = "<group>"; };
+		11B8C016227DC3AB003B4C65 /* UIOffsetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOffsetExtensions.swift; sourceTree = "<group>"; };
+		11B8C01E227DCEDC003B4C65 /* CodableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableExtensions.swift; sourceTree = "<group>"; };
+		11B8C01F227DCEDC003B4C65 /* DataObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObjectExtensions.swift; sourceTree = "<group>"; };
+		11B8C023227DD200003B4C65 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		11B8C025227DD217003B4C65 /* SecureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTableViewCell.swift; sourceTree = "<group>"; };
+		11B8C027227DD22B003B4C65 /* SecureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureItem.swift; sourceTree = "<group>"; };
+		11B8C029227DE310003B4C65 /* SecureDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDataSource.swift; sourceTree = "<group>"; };
+		11B8C02D227EDAEB003B4C65 /* LAHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAHelper.swift; sourceTree = "<group>"; };
 		11D6398E227D60AA000ABD2E /* SwiftSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D63991227D60AA000ABD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11D63993227D60AA000ABD2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11D63993227D60AA000ABD2E /* SecureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureViewController.swift; sourceTree = "<group>"; };
 		11D63998227D60AB000ABD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D6399D227D60AB000ABD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D639AE227D729C000ABD2E /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		11D639AF227D729C000ABD2E /* UITableViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		11D639B2227D8128000ABD2E /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		11D639B3227D8129000ABD2E /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B8C01D227DCEC9003B4C65 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				11B8C01E227DCEDC003B4C65 /* CodableExtensions.swift */,
+				11B8C01F227DCEDC003B4C65 /* DataObjectExtensions.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		11B8C022227DD1F4003B4C65 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				11B8C02D227EDAEB003B4C65 /* LAHelper.swift */,
+				11B8C023227DD200003B4C65 /* UIViewControllerExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		11C9F0C8227EE4E300024204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D63998227D60AB000ABD2E /* Assets.xcassets */,
+				11D6399D227D60AB000ABD2E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11C9F0C9227EE4FB00024204 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				11D63991227D60AA000ABD2E /* AppDelegate.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		11C9F0CA227EE50800024204 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11D63993227D60AA000ABD2E /* SecureViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11C9F0CC227EE55300024204 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11B8C025227DD217003B4C65 /* SecureTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11C9F0CD227EE55E00024204 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11B8C027227DD22B003B4C65 /* SecureItem.swift */,
+				11B8C029227DE310003B4C65 /* SecureDataSource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		11D63985227D60AA000ABD2E = {
 			isa = PBXGroup;
 			children = (
@@ -50,12 +144,57 @@
 		11D63990227D60AA000ABD2E /* SwiftSecurity */ = {
 			isa = PBXGroup;
 			children = (
-				11D63991227D60AA000ABD2E /* AppDelegate.swift */,
-				11D63993227D60AA000ABD2E /* ViewController.swift */,
-				11D63998227D60AB000ABD2E /* Assets.xcassets */,
-				11D6399D227D60AB000ABD2E /* Info.plist */,
+				11C9F0CD227EE55E00024204 /* Models */,
+				11C9F0CC227EE55300024204 /* Views */,
+				11C9F0CA227EE50800024204 /* ViewControllers */,
+				11C9F0C9227EE4FB00024204 /* Singletons */,
+				11C9F0C8227EE4E300024204 /* Supporting Files */,
+				11D639B6227D8134000ABD2E /* Helpers */,
 			);
 			path = SwiftSecurity;
+			sourceTree = "<group>";
+		};
+		11D639B6227D8134000ABD2E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				11B8C022227DD1F4003B4C65 /* Helpers */,
+				11B8C01D227DCEC9003B4C65 /* Codable */,
+				11D639B9227DC34D000ABD2E /* Layout */,
+				11D639B8227D814C000ABD2E /* Reusable */,
+				11D639B7227D813F000ABD2E /* Keychain */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		11D639B7227D813F000ABD2E /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				11D639B2227D8128000ABD2E /* KeychainItemAccessibility.swift */,
+				11D639B3227D8129000ABD2E /* KeychainWrapper.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		11D639B8227D814C000ABD2E /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				11D639AE227D729C000ABD2E /* Reusable.swift */,
+				11D639AF227D729C000ABD2E /* UITableViewExtensions.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		11D639B9227DC34D000ABD2E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				11B8C015227DC3AB003B4C65 /* CGMultiplierExtensions.swift */,
+				11B8C013227DC3AB003B4C65 /* CGSizeExtensions.swift */,
+				11B8C012227DC3AB003B4C65 /* Set<NSLayoutConstraint.Attribute>Extensions.swift */,
+				11B8C014227DC3AB003B4C65 /* UIEdgeInsetsExtensions.swift */,
+				11B8C016227DC3AB003B4C65 /* UIOffsetExtensions.swift */,
+				11B8C011227DC3AB003B4C65 /* UIViewLayoutHelpers.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +266,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D63994227D60AA000ABD2E /* ViewController.swift in Sources */,
+				11B8C028227DD22B003B4C65 /* SecureItem.swift in Sources */,
+				11B8C018227DC3AB003B4C65 /* Set<NSLayoutConstraint.Attribute>Extensions.swift in Sources */,
+				11D639B0227D729C000ABD2E /* Reusable.swift in Sources */,
+				11D63994227D60AA000ABD2E /* SecureViewController.swift in Sources */,
+				11B8C02E227EDAEB003B4C65 /* LAHelper.swift in Sources */,
 				11D63992227D60AA000ABD2E /* AppDelegate.swift in Sources */,
+				11D639B5227D8129000ABD2E /* KeychainWrapper.swift in Sources */,
+				11B8C026227DD217003B4C65 /* SecureTableViewCell.swift in Sources */,
+				11D639B4227D8129000ABD2E /* KeychainItemAccessibility.swift in Sources */,
+				11B8C017227DC3AB003B4C65 /* UIViewLayoutHelpers.swift in Sources */,
+				11B8C024227DD200003B4C65 /* UIViewControllerExtensions.swift in Sources */,
+				11B8C019227DC3AB003B4C65 /* CGSizeExtensions.swift in Sources */,
+				11B8C01C227DC3AB003B4C65 /* UIOffsetExtensions.swift in Sources */,
+				11B8C020227DCEDC003B4C65 /* CodableExtensions.swift in Sources */,
+				11B8C02A227DE310003B4C65 /* SecureDataSource.swift in Sources */,
+				11B8C021227DCEDC003B4C65 /* DataObjectExtensions.swift in Sources */,
+				11B8C01B227DC3AB003B4C65 /* CGMultiplierExtensions.swift in Sources */,
+				11B8C01A227DC3AB003B4C65 /* UIEdgeInsetsExtensions.swift in Sources */,
+				11D639B1227D729C000ABD2E /* UITableViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftSecurity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftSecurity/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -274,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftSecurity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftSecurity/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
